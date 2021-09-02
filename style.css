@@ -1,0 +1,17 @@
+.bio-image {
+    height: 400px;
+    width: 400px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    margin: 0 auto;
+    float: right;
+}
+
