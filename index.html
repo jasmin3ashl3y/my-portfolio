@@ -1,58 +1,103 @@
 <!DOCTYPE html>
-<html lang="en-us">
 
-<link rel="stylesheet" type="text/css" href="./style.css">
+<html lang="en-us" >
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Jasmine's Biography</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Jasmine's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
-  <body>
+<!-- BANNER START -->
 
-<script type="text/javascript">
+<body>
 
-</script>
-
-    <div class="container">
-    <!-- Site Header -->
-    <header>
-      <!-- h1: The most important headline -->
-      <h1>Jasmine Ashley</h1>
-    </header>
-
-    <main>
-      <!-- Section 1: Bio -->
-      <section id="main-bio">
-        <h2>Portfolio</h2>
-
-        <!-- Image with link -->
-        <img id="main-bio" src="images/profile-photo.jpg" alt="Jasmine" />
-        <link rel="bio-image" href="../images/profile-photo.jpg">
-
-        <!-- Paragraph with embedded link -->
-        <p>
-          I'm a bartender in Toronto and I love my Aussie goldendoodle. I also like learning to code :D
-          <a href="http://www.lipsum.com/">Lorem Ipsum</a> placeholder text.
-        </p>
-      </section>
-
-      <!-- Section 2: Contact Info -->
-      <section>
-        <!-- h2: Tier-2 Headline -->
-        <h2>Contact Info</h2>
-
-        <!-- Unordered list -->
+    <header> 
+      <h1>
+        <a href="/">jasmine ashley</a>
+      </h1>
+      <nav>
         <ul>
           <li>
-            <strong>Email:</strong>
-            <a href="mailto:jasmine@ashleyit.com">jasmine@ashleyit.com</a>
+            <a href="#my-work">my work</a>
           </li>
-          <li><strong>Github:</strong> <a href="https://github.com/jasmin3ashl3y">jasmin3ashl3y</a></li>
-          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jasmine-ashley-b4ab29194/">Jasmine Ashley</a></li>
-        </ul>
+          <li>
+            <a href="#about-me">about me</a>
+          </li>
+          <li>
+            <a href="#contact-me">contact me</a>
+          </li>
+        </ul> 
+      </nav>
+    </header>
+
+<!-- BANNER END -->
+
+    <div class="hero">
+
+      <section id="main-bio">
+
+        <h2>welcome to my portfolio</h2>
+
+        <p>
+         I'm a junior web developer 
+        </p>
+
+        <img id="main-bio" src="assets/images/profile_photo.png" alt="Jasmine" />
+        <link rel="bio-image" href="../images/profile_photo.png">
+
       </section>
-    </main>
+
     </div>
-  </body>
+
+<!----- MY WORK START ----->
+
+    <section id="my-work">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          my work
+        </h2>
+      </div>
+      <div class="work-samples">
+        <ul>
+          <li>
+            <a href="https://jasmin3ashl3y.github.io/run-buddy/">run buddy</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </section>
+
+    <main>
+
+      <!-- CONTACT ME START -->
+      <section id="contact-me">
+        <div class="flex-row">
+          <h3 class="section-title primary-border">
+            contact me
+          </h3>
+        </div>
+        <div class="contact-info">
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:jasmine@ashleyit.com">jasmine@ashleyit.com</a>
+            </li>
+            <li><strong>Github:</strong> <a href="https://github.com/jasmin3ashl3y">jasmin3ashl3y</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jasmine-ashley-b4ab29194/">Jasmine Ashley</a></li>
+          </ul>
+        </div> 
+      </section>
+    
+    </main>
+    
+    </div>
+</body>
+
+<footer>
+  [2021] jasmin3ashl3y
+</footer>
+
 </html>
