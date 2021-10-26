@@ -3,7 +3,7 @@
     margin: 3;
     padding: 8;
     font-family: helvetica;
-    background-color: #8fd6bea1 ;
+    background-color: #c4f1e2a1 ;
   }
 
 /****** HEADER START *****/
@@ -34,7 +34,7 @@
   }
   
 .primary-border {
-    border-color: #3b4bff;
+    border-color: #ffffff;
   }
 
 header h1 {
@@ -123,8 +123,7 @@ section {
 
 .contact-info ul,
 .work-samples ul {
-    list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .flex-row {
